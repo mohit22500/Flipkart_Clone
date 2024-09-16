@@ -132,6 +132,49 @@
     height: 24px;
     width: 24px;
 }
+
+.content{
+    background-color: #a9a9a9;
+    height: 150px;
+    margin: 16px 16px 0px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    width: 122px;
+    background-color: #f0f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+
+}
+
+.box-content{
+    width: 100%;
+    padding :16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+
+}
+
+
+.box-img{
+    background-image: url(./images/img1.jpg);
+    height: 64px;
+    width: 90px;
+    margin-bottom: 4px;
+}
+span{
+    font-size: 14px;
+
+    font-weight: 700;
+    
+}
     
     
     
